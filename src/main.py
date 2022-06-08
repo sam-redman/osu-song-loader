@@ -35,7 +35,7 @@ def chose_directory():
 window = Tk()
 window.title("osu! Song Loader")
 # Padding, background colour.
-window.config(padx=50, pady=50)
+window.config(padx=50, pady=50, bg="#ff66aa")
 
 # Directory.
 directory_button = Button(width=11, text="Song Directory", command=chose_directory)
